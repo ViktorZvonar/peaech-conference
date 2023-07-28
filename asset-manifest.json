@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/peaech-conference/static/css/main.7acaea2f.css",
-    "main.js": "/peaech-conference/static/js/main.0a75cf25.js",
+    "main.css": "/peaech-conference/static/css/main.d2033682.css",
+    "main.js": "/peaech-conference/static/js/main.5a8193c2.js",
+    "static/css/433.04931e41.chunk.css": "/peaech-conference/static/css/433.04931e41.chunk.css",
+    "static/js/433.27fea8d5.chunk.js": "/peaech-conference/static/js/433.27fea8d5.chunk.js",
+    "static/css/185.646be0f9.chunk.css": "/peaech-conference/static/css/185.646be0f9.chunk.css",
+    "static/js/185.7834ceaf.chunk.js": "/peaech-conference/static/js/185.7834ceaf.chunk.js",
+    "static/media/logo_znak_2022.png": "/peaech-conference/static/media/logo_znak_2022.a64d98de45c500c89051.png",
+    "static/media/PeaECH_fin_logo.png": "/peaech-conference/static/media/PeaECH_fin_logo.2cb17589d1ad6f577c01.png",
+    "static/media/EN-Co-Funded-by-the-EU_POS.png": "/peaech-conference/static/media/EN-Co-Funded-by-the-EU_POS.97b1ef8d08f19db4e55b.png",
+    "static/media/EN-V-Co-funded-by_POS.png": "/peaech-conference/static/media/EN-V-Co-funded-by_POS.d0753d8d5dcd929ae5a3.png",
+    "static/media/kubg_logo_gor_en.png": "/peaech-conference/static/media/kubg_logo_gor_en.d13b83f9c865ab1975ac.png",
+    "static/media/jean-monnet-logo-300x108.png": "/peaech-conference/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "/peaech-conference/index.html",
-    "main.7acaea2f.css.map": "/peaech-conference/static/css/main.7acaea2f.css.map",
-    "main.0a75cf25.js.map": "/peaech-conference/static/js/main.0a75cf25.js.map"
+    "main.d2033682.css.map": "/peaech-conference/static/css/main.d2033682.css.map",
+    "main.5a8193c2.js.map": "/peaech-conference/static/js/main.5a8193c2.js.map",
+    "433.04931e41.chunk.css.map": "/peaech-conference/static/css/433.04931e41.chunk.css.map",
+    "433.27fea8d5.chunk.js.map": "/peaech-conference/static/js/433.27fea8d5.chunk.js.map",
+    "185.646be0f9.chunk.css.map": "/peaech-conference/static/css/185.646be0f9.chunk.css.map",
+    "185.7834ceaf.chunk.js.map": "/peaech-conference/static/js/185.7834ceaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.0a75cf25.js"
+    "static/css/main.d2033682.css",
+    "static/js/main.5a8193c2.js"
   ]
 }
