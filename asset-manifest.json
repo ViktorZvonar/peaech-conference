@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/peaech-conference/static/css/main.d2033682.css",
+    "main.css": "/peaech-conference/static/css/main.20e1df54.css",
     "main.js": "/peaech-conference/static/js/main.1411f9e4.js",
     "static/css/433.04931e41.chunk.css": "/peaech-conference/static/css/433.04931e41.chunk.css",
     "static/js/433.27fea8d5.chunk.js": "/peaech-conference/static/js/433.27fea8d5.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/kubg_logo_gor_en.png": "/peaech-conference/static/media/kubg_logo_gor_en.d13b83f9c865ab1975ac.png",
     "static/media/jean-monnet-logo-300x108.png": "/peaech-conference/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "/peaech-conference/index.html",
-    "main.d2033682.css.map": "/peaech-conference/static/css/main.d2033682.css.map",
+    "main.20e1df54.css.map": "/peaech-conference/static/css/main.20e1df54.css.map",
     "main.1411f9e4.js.map": "/peaech-conference/static/js/main.1411f9e4.js.map",
     "433.04931e41.chunk.css.map": "/peaech-conference/static/css/433.04931e41.chunk.css.map",
     "433.27fea8d5.chunk.js.map": "/peaech-conference/static/js/433.27fea8d5.chunk.js.map",
@@ -21,7 +21,7 @@
     "185.7834ceaf.chunk.js.map": "/peaech-conference/static/js/185.7834ceaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2033682.css",
+    "static/css/main.20e1df54.css",
     "static/js/main.1411f9e4.js"
   ]
 }
