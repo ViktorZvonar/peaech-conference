@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Ivan Yuriychuk",
+        "title": "Deputy Head of the State Service for Quality of Education of Ukraine",
+        "photo": "/images/speakers/jurij.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Oleksandr Elkin",
+        "title": "Chairman of the board of EdCamp Ukraine, expert on the non-discriminatory approach in education, co-author of the concept and foundations of the New Ukrainian School standard",
+        "photo": "/images/speakers/yel.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Alina Haletska",
+        "title": "Professor at the Kyiv-Mohyla School of Governance, coordinator of the Gender Silver Economy project, member of the Expert Council on Gender Integration at the Kyiv City Council ",
+        "photo": "/images/speakers/harletska.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Nadiya Kopanytsia",
+        "title": "Executive director of NGO White Ribbon Ukraine, business trainer, coach and facilitator",
+        "photo": "/images/speakers/kopanytsja.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Olena Khomych",
+        "title": "Activist of the GURT Resource Center, coordinator of the training course for self-help group facilitators",
+        "photo": "/images/speakers/homytch.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Salih Salih Abd",
+        "title": "Peace ambassador, teacher of the Arabic at Kyiv Gymnasium of Oriental Languages No 1",
+        "photo": "/images/speakers/salih.jpg"
+    }
+]

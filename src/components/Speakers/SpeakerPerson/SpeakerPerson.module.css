@@ -1,0 +1,36 @@
+.speakerCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.speakerCard:hover,
+.speakerCard:focus {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fdfae7;
+}
+
+.speakerImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.speakerName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.speakerTitle {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
