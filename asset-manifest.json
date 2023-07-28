@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/peaech-conference/static/css/main.d2033682.css",
-    "main.js": "/peaech-conference/static/js/main.5a8193c2.js",
+    "main.js": "/peaech-conference/static/js/main.1411f9e4.js",
     "static/css/433.04931e41.chunk.css": "/peaech-conference/static/css/433.04931e41.chunk.css",
     "static/js/433.27fea8d5.chunk.js": "/peaech-conference/static/js/433.27fea8d5.chunk.js",
-    "static/css/185.646be0f9.chunk.css": "/peaech-conference/static/css/185.646be0f9.chunk.css",
+    "static/css/185.1027aaa3.chunk.css": "/peaech-conference/static/css/185.1027aaa3.chunk.css",
     "static/js/185.7834ceaf.chunk.js": "/peaech-conference/static/js/185.7834ceaf.chunk.js",
     "static/media/logo_znak_2022.png": "/peaech-conference/static/media/logo_znak_2022.a64d98de45c500c89051.png",
     "static/media/PeaECH_fin_logo.png": "/peaech-conference/static/media/PeaECH_fin_logo.2cb17589d1ad6f577c01.png",
@@ -14,14 +14,14 @@
     "static/media/jean-monnet-logo-300x108.png": "/peaech-conference/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "/peaech-conference/index.html",
     "main.d2033682.css.map": "/peaech-conference/static/css/main.d2033682.css.map",
-    "main.5a8193c2.js.map": "/peaech-conference/static/js/main.5a8193c2.js.map",
+    "main.1411f9e4.js.map": "/peaech-conference/static/js/main.1411f9e4.js.map",
     "433.04931e41.chunk.css.map": "/peaech-conference/static/css/433.04931e41.chunk.css.map",
     "433.27fea8d5.chunk.js.map": "/peaech-conference/static/js/433.27fea8d5.chunk.js.map",
-    "185.646be0f9.chunk.css.map": "/peaech-conference/static/css/185.646be0f9.chunk.css.map",
+    "185.1027aaa3.chunk.css.map": "/peaech-conference/static/css/185.1027aaa3.chunk.css.map",
     "185.7834ceaf.chunk.js.map": "/peaech-conference/static/js/185.7834ceaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2033682.css",
-    "static/js/main.5a8193c2.js"
+    "static/js/main.1411f9e4.js"
   ]
 }
