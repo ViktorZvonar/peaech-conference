@@ -1,14 +1,21 @@
 .section {
-  padding: 40px;
-  background-color: #fafafa;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
   transition: all 0.3s ease;
 }
 
-.section:hover {
-  background-color: #e7e7e7;
+.section:hover,
+.section:focus {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fdfae7;
 }
 
 .h1 {
