@@ -26,9 +26,32 @@
   transition: all 0.3s ease;
 }
 
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.section:hover {
+  animation: bounce 500ms;
+}
+
 .section:hover,
 .section:focus {
-  transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
   background-color: #fdfae7;
 }
@@ -61,6 +84,7 @@
   background-color: #f8f9fa;
   border-radius: 5px;
   border-bottom: none;
+  background-color: #fdfae7;
 }
 
 .ul li:not(:last-child) {
