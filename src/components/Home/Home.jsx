@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
+import Moderators from 'components/Moderators/Moderators';
 
 function Home() {
   return (
@@ -22,19 +23,9 @@ function Home() {
           (ERASMUS-JMO-2022-HEI-TCH-RSCH-UA-IBA- 101094420).
         </p>
       </section>
-
-      <section className={styles.moderators}>
+      <section>
         <h2 className={styles.h2}>Moderators</h2>
-        <ul className={styles.ul}>
-          <li>
-            Liudmyla llich - Doctor of economic sciences, professor, academic
-            coordinator of PeaECH project
-          </li>
-          <li>
-            Viktor Zvonar, Doctor of economic sciences, professor, expert,
-            teacher of PeaECH project
-          </li>
-        </ul>
+        <Moderators />
       </section>
     </div>
   );
