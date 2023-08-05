@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/peaech-conference/static/css/main.20e1df54.css",
-    "main.js": "/peaech-conference/static/js/main.a848e1a7.js",
-    "static/css/433.31639ee5.chunk.css": "/peaech-conference/static/css/433.31639ee5.chunk.css",
-    "static/js/433.bc765957.chunk.js": "/peaech-conference/static/js/433.bc765957.chunk.js",
+    "main.js": "/peaech-conference/static/js/main.54e1078a.js",
+    "static/css/169.0ce1b1c1.chunk.css": "/peaech-conference/static/css/169.0ce1b1c1.chunk.css",
+    "static/js/169.cd4025b6.chunk.js": "/peaech-conference/static/js/169.cd4025b6.chunk.js",
     "static/css/185.1027aaa3.chunk.css": "/peaech-conference/static/css/185.1027aaa3.chunk.css",
     "static/js/185.6f488e19.chunk.js": "/peaech-conference/static/js/185.6f488e19.chunk.js",
     "static/media/logo_znak_2022.png": "/peaech-conference/static/media/logo_znak_2022.a64d98de45c500c89051.png",
@@ -14,14 +14,14 @@
     "static/media/jean-monnet-logo-300x108.png": "/peaech-conference/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "/peaech-conference/index.html",
     "main.20e1df54.css.map": "/peaech-conference/static/css/main.20e1df54.css.map",
-    "main.a848e1a7.js.map": "/peaech-conference/static/js/main.a848e1a7.js.map",
-    "433.31639ee5.chunk.css.map": "/peaech-conference/static/css/433.31639ee5.chunk.css.map",
-    "433.bc765957.chunk.js.map": "/peaech-conference/static/js/433.bc765957.chunk.js.map",
+    "main.54e1078a.js.map": "/peaech-conference/static/js/main.54e1078a.js.map",
+    "169.0ce1b1c1.chunk.css.map": "/peaech-conference/static/css/169.0ce1b1c1.chunk.css.map",
+    "169.cd4025b6.chunk.js.map": "/peaech-conference/static/js/169.cd4025b6.chunk.js.map",
     "185.1027aaa3.chunk.css.map": "/peaech-conference/static/css/185.1027aaa3.chunk.css.map",
     "185.6f488e19.chunk.js.map": "/peaech-conference/static/js/185.6f488e19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20e1df54.css",
-    "static/js/main.a848e1a7.js"
+    "static/js/main.54e1078a.js"
   ]
 }
