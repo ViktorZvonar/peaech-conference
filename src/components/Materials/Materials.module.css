@@ -1,0 +1,71 @@
+.secondSection div {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.secondSection div:hover {
+  transform: translateY(-5px);
+}
+
+.secondSection h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.secondSection p {
+  font-size: 1.1em;
+  color: #777777;
+  margin-bottom: 15px;
+}
+
+.downloadButton {
+  background-color: #0056b3;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.downloadButton:hover {
+  background-color: #49c1da;
+}
+
+/* Pagination container */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Pagination buttons */
+.pagination button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button[hidden] {
+  display: none;
+}
+
+/* Pagination text */
+.pagination span {
+  color: #555;
+  font-size: 1.1em;
+}

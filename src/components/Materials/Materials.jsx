@@ -8,6 +8,8 @@ import { collection, getDocs } from 'firebase/firestore';
 
 function Materials() {
   const [matList, setMatlist] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 5;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -38,24 +40,55 @@ function Materials() {
     fetchData();
   }, []);
 
+  const totalPages = Math.ceil(matList.length / itemsPerPage);
+
+  const handleNext = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const currentItems = matList.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+
   return (
     <main>
       <section className={styles.secondSection}>
-        {matList.map((material, index) => (
+        {currentItems.map((material, index) => (
           <div key={index}>
             <h3>{material.title}</h3>
             <p>{material.author}</p>
-            <button>
+            <button className={styles.downloadButton}>
               <a
                 href={material.url}
-                download={`Document_${index + 1}.pdf`}
-                className={styles.downloadButton}
+                download={`Document_${
+                  (currentPage - 1) * itemsPerPage + index + 1
+                }.pdf`}
               >
                 View PDF
               </a>
             </button>
           </div>
         ))}
+        <div className={styles.pagination}>
+          <button onClick={handlePrev} hidden={currentPage <= 1}>
+            Previous
+          </button>
+          <span>
+            Page {currentPage} of {totalPages}
+          </span>
+          <button onClick={handleNext} hidden={currentPage >= totalPages}>
+            Next
+          </button>
+        </div>
       </section>
     </main>
   );
