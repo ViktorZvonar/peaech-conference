@@ -33,7 +33,7 @@ function Materials() {
     };
 
     fetchData();
-  });
+  }, []);
 
   return (
     <main>
