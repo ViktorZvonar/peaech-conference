@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/peaech-conference/static/css/main.20e1df54.css",
-    "main.js": "/peaech-conference/static/js/main.54e1078a.js",
-    "static/css/169.0ce1b1c1.chunk.css": "/peaech-conference/static/css/169.0ce1b1c1.chunk.css",
-    "static/js/169.cd4025b6.chunk.js": "/peaech-conference/static/js/169.cd4025b6.chunk.js",
-    "static/css/185.1027aaa3.chunk.css": "/peaech-conference/static/css/185.1027aaa3.chunk.css",
+    "main.css": "/peaech-conference/static/css/main.0e7c237f.css",
+    "main.js": "/peaech-conference/static/js/main.bbd4a6ce.js",
+    "static/css/169.0cf622b0.chunk.css": "/peaech-conference/static/css/169.0cf622b0.chunk.css",
+    "static/js/169.4a154688.chunk.js": "/peaech-conference/static/js/169.4a154688.chunk.js",
+    "static/css/185.77c507ab.chunk.css": "/peaech-conference/static/css/185.77c507ab.chunk.css",
     "static/js/185.6f488e19.chunk.js": "/peaech-conference/static/js/185.6f488e19.chunk.js",
+    "static/css/820.31d6cfe0.chunk.css": "/peaech-conference/static/css/820.31d6cfe0.chunk.css",
+    "static/js/820.ebbd0790.chunk.js": "/peaech-conference/static/js/820.ebbd0790.chunk.js",
+    "static/js/803.47e846c6.chunk.js": "/peaech-conference/static/js/803.47e846c6.chunk.js",
     "static/media/logo_znak_2022.png": "/peaech-conference/static/media/logo_znak_2022.a64d98de45c500c89051.png",
     "static/media/PeaECH_fin_logo.png": "/peaech-conference/static/media/PeaECH_fin_logo.2cb17589d1ad6f577c01.png",
     "static/media/EN-Co-Funded-by-the-EU_POS.png": "/peaech-conference/static/media/EN-Co-Funded-by-the-EU_POS.97b1ef8d08f19db4e55b.png",
@@ -13,15 +16,17 @@
     "static/media/kubg_logo_gor_en.png": "/peaech-conference/static/media/kubg_logo_gor_en.d13b83f9c865ab1975ac.png",
     "static/media/jean-monnet-logo-300x108.png": "/peaech-conference/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "/peaech-conference/index.html",
-    "main.20e1df54.css.map": "/peaech-conference/static/css/main.20e1df54.css.map",
-    "main.54e1078a.js.map": "/peaech-conference/static/js/main.54e1078a.js.map",
-    "169.0ce1b1c1.chunk.css.map": "/peaech-conference/static/css/169.0ce1b1c1.chunk.css.map",
-    "169.cd4025b6.chunk.js.map": "/peaech-conference/static/js/169.cd4025b6.chunk.js.map",
-    "185.1027aaa3.chunk.css.map": "/peaech-conference/static/css/185.1027aaa3.chunk.css.map",
-    "185.6f488e19.chunk.js.map": "/peaech-conference/static/js/185.6f488e19.chunk.js.map"
+    "main.0e7c237f.css.map": "/peaech-conference/static/css/main.0e7c237f.css.map",
+    "main.bbd4a6ce.js.map": "/peaech-conference/static/js/main.bbd4a6ce.js.map",
+    "169.0cf622b0.chunk.css.map": "/peaech-conference/static/css/169.0cf622b0.chunk.css.map",
+    "169.4a154688.chunk.js.map": "/peaech-conference/static/js/169.4a154688.chunk.js.map",
+    "185.77c507ab.chunk.css.map": "/peaech-conference/static/css/185.77c507ab.chunk.css.map",
+    "185.6f488e19.chunk.js.map": "/peaech-conference/static/js/185.6f488e19.chunk.js.map",
+    "820.ebbd0790.chunk.js.map": "/peaech-conference/static/js/820.ebbd0790.chunk.js.map",
+    "803.47e846c6.chunk.js.map": "/peaech-conference/static/js/803.47e846c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e1df54.css",
-    "static/js/main.54e1078a.js"
+    "static/css/main.0e7c237f.css",
+    "static/js/main.bbd4a6ce.js"
   ]
 }
