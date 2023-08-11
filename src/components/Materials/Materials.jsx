@@ -8,12 +8,12 @@ import { collection, getDocs } from 'firebase/firestore';
 
 function Materials() {
   const [matList, setMatlist] = useState([]);
-  const colRef = collection(db, 'materials');
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const materialData = [];
+        const colRef = collection(db, 'materials');
         const snapshot = await getDocs(colRef);
         for (let doc of snapshot.docs) {
           const data = doc.data();
