@@ -12,20 +12,23 @@ function Materials() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const materialData = [];
         const colRef = collection(db, 'materials');
         const snapshot = await getDocs(colRef);
-        for (let doc of snapshot.docs) {
+
+        const materialDataPromises = snapshot.docs.map(async doc => {
           const data = doc.data();
           const fileName = data.filename + '.pdf';
-
           const url = await getDownloadURL(ref(storage, 'mat/' + fileName));
-          materialData.push({
+
+          return {
             title: data.title,
             author: data.author,
             url: url,
-          });
-        }
+          };
+        });
+
+        const materialData = await Promise.all(materialDataPromises);
+
         setMatlist(materialData);
       } catch (error) {
         console.error('Error fetching data:', error);
