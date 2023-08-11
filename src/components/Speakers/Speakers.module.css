@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid #ccc;
   background-color: #f8f9fa;
   padding: 20px;
   margin-bottom: 20px;
@@ -16,6 +17,7 @@
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
   background-color: #fdfae7;
+  border: none;
 }
 
 .h1 {

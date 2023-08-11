@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 
 const Home = lazy(() => import('./Home/Home'));
 const Speakers = lazy(() => import('./Speakers/Speakers'));
+const Materials = lazy(() => import('./Materials/Materials'));
 // const NotFoundPage = lazy(() => import('../pages/NotFoundPage/NotFoundPage'));
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/speakers" element={<Speakers />} />
+            <Route path="/proceedings" element={<Materials />} />
             {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
         </Container>

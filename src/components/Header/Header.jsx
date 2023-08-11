@@ -41,8 +41,8 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className={getClassName}>
-              Contact
+            <NavLink to="/proceedings" className={getClassName}>
+              Proceedings
             </NavLink>
           </li>
         </ul>

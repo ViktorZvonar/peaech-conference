@@ -16,6 +16,7 @@
   transform: scale(1.1);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
   background-color: #fdfae7;
+  border: none;
 }
 
 .moderatorImage {
@@ -35,4 +36,8 @@
   font-size: 14px;
   margin-top: 5px;
   text-align: start;
+}
+
+.reversed {
+  flex-direction: row-reverse;
 }

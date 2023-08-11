@@ -8,20 +8,20 @@
 
 .h2 {
   font-size: 1.4em;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 40px;
   color: #3778c8;
 }
-.section {
+.firstSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f8f9fa;
+  background-color: #fdfae7;
   padding: 20px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   transition: all 0.3s ease;
@@ -47,26 +47,35 @@
   }
 }
 
-.section:hover {
+.firstSection:hover {
   animation: bounce 500ms;
 }
 
-.section:hover,
-.section:focus {
+.firstSection:hover,
+.firstSection:focus {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-  background-color: #fdfae7;
 }
 
-.section h1,
-.section h2 {
+.firstSection h1,
+.firstSection h2 {
   margin-bottom: 20px;
 }
 
-.section p {
+.firstSection p {
   color: #6c757d;
   margin-bottom: 20px;
   font-size: 1.1em;
 }
+
+.about {
+  text-align: center;
+}
+/* .secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
 
 .ul {
   list-style: none;
@@ -97,4 +106,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.secondSection {
+  margin-bottom: 70px;
 }
