@@ -1,12 +1,13 @@
 .section {
   display: flex;
   flex-direction: column;
+  position: relative;
   justify-content: center;
   align-items: center;
   border: 1px solid #ccc;
   background-color: #ffffff;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   transition: all 0.3s ease;
@@ -26,6 +27,7 @@
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .h2 {
@@ -34,13 +36,14 @@
   margin-top: 30px;
   margin-bottom: 15px;
   font-weight: bold;
+  text-align: center;
 }
 
 .p {
   font-size: 1.1em;
   color: #555555;
   line-height: 1.8em;
-  text-align: justify;
+  text-align: center;
 }
 
 .ul {
@@ -63,4 +66,26 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+.additionalInfo {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: #3778c8;
+  border-radius: 25px;
+  color: #f8f9fa;
+  font-style: oblique;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.section:hover .additionalInfo,
+.section:focus-within .additionalInfo {
+  opacity: 1;
+  visibility: visible;
 }

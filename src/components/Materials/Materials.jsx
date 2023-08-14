@@ -61,11 +61,33 @@ function Materials() {
 
   return (
     <main>
+      <section className={styles.firstSection}>
+        <h1 className={styles.h1}>Reference</h1>
+        <div className={styles.refContainer}>
+          <h2 className={styles.h1}>Original:</h2>
+          <p className={styles.p}>
+            Миротворча освіта заради консолідованої та людиноцентричної Європи:
+            Доповіді всеукр. наук.-практ. конф., м.Київ, 16 червня 2023 р.:
+            Київ, Київський університет імені Бориса Грінченка, 2023. – 150 с.
+          </p>
+          <h2 className={styles.h1}>English:</h2>
+          <p className={styles.p}>
+            Peacebuilding Education for a Consolidated and Human-Centered
+            Europe: Reports of the All-Ukrainian Scientific-Practical
+            Conference, Kyiv, June 16, 2023: Kyiv, Borys Grinchenko Kyiv
+            University, 2023. – 150 pages.
+          </p>
+        </div>
+        <p className={styles.p}>ISBN: 978-9943-26-234-1</p>
+        <p className={styles.p}>DOI: 10.28925/2023.166150conf</p>
+      </section>
       <section className={styles.secondSection}>
         {currentItems.map((material, index) => (
-          <div key={index}>
-            <h3>{material.title}</h3>
-            <p>{material.author}</p>
+          <div key={index} className={styles.dataContainer}>
+            <div className={styles.textContainer}>
+              <h3>{material.title}</h3>
+              <p>{material.author}</p>
+            </div>
             <button className={styles.downloadButton}>
               <a
                 href={material.url}

@@ -1,25 +1,44 @@
-.secondSection div {
+.firstSection {
+  margin-bottom: 20px;
+}
+
+.firstSection h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.refContainer {
+  margin-bottom: 15px;
+}
+
+.secondSection h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.secondSection p {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 15px;
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
 
-.secondSection div:hover {
+.dataContainer:hover {
   transform: translateY(-5px);
 }
 
-.secondSection h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.secondSection p {
-  font-size: 1.1em;
-  color: #777777;
-  margin-bottom: 15px;
+.textContainer {
+  width: 70%;
 }
 
 .downloadButton {
@@ -36,7 +55,6 @@
   background-color: #49c1da;
 }
 
-/* Pagination container */
 .pagination {
   display: flex;
   align-items: center;
@@ -44,9 +62,8 @@
   margin-top: 20px;
 }
 
-/* Pagination buttons */
 .pagination button {
-  background-color: #007bff;
+  background-color: #49c1da;
   color: #ffffff;
   padding: 10px 15px;
   border: none;
@@ -64,7 +81,6 @@
   display: none;
 }
 
-/* Pagination text */
 .pagination span {
   color: #555;
   font-size: 1.1em;
