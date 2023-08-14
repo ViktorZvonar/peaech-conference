@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://peaech-conference.netlify.app/static/css/main.850f383d.css",
-    "main.js": "https://peaech-conference.netlify.app/static/js/main.dc92e06d.js",
+    "main.js": "https://peaech-conference.netlify.app/static/js/main.a9717fa5.js",
     "static/css/169.7a92cc36.chunk.css": "https://peaech-conference.netlify.app/static/css/169.7a92cc36.chunk.css",
     "static/js/169.0b42d7fd.chunk.js": "https://peaech-conference.netlify.app/static/js/169.0b42d7fd.chunk.js",
     "static/css/185.35d7e173.chunk.css": "https://peaech-conference.netlify.app/static/css/185.35d7e173.chunk.css",
     "static/js/185.57bab1e9.chunk.js": "https://peaech-conference.netlify.app/static/js/185.57bab1e9.chunk.js",
     "static/css/820.bbcc9abc.chunk.css": "https://peaech-conference.netlify.app/static/css/820.bbcc9abc.chunk.css",
-    "static/js/820.433e1d28.chunk.js": "https://peaech-conference.netlify.app/static/js/820.433e1d28.chunk.js",
+    "static/js/820.62ba2d97.chunk.js": "https://peaech-conference.netlify.app/static/js/820.62ba2d97.chunk.js",
     "static/js/803.ace68a13.chunk.js": "https://peaech-conference.netlify.app/static/js/803.ace68a13.chunk.js",
     "static/media/logo_znak_2022.png": "https://peaech-conference.netlify.app/static/media/logo_znak_2022.a64d98de45c500c89051.png",
     "static/media/PeaECH_fin_logo.png": "https://peaech-conference.netlify.app/static/media/PeaECH_fin_logo.2cb17589d1ad6f577c01.png",
@@ -17,17 +17,17 @@
     "static/media/jean-monnet-logo-300x108.png": "https://peaech-conference.netlify.app/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "https://peaech-conference.netlify.app/index.html",
     "main.850f383d.css.map": "https://peaech-conference.netlify.app/static/css/main.850f383d.css.map",
-    "main.dc92e06d.js.map": "https://peaech-conference.netlify.app/static/js/main.dc92e06d.js.map",
+    "main.a9717fa5.js.map": "https://peaech-conference.netlify.app/static/js/main.a9717fa5.js.map",
     "169.7a92cc36.chunk.css.map": "https://peaech-conference.netlify.app/static/css/169.7a92cc36.chunk.css.map",
     "169.0b42d7fd.chunk.js.map": "https://peaech-conference.netlify.app/static/js/169.0b42d7fd.chunk.js.map",
     "185.35d7e173.chunk.css.map": "https://peaech-conference.netlify.app/static/css/185.35d7e173.chunk.css.map",
     "185.57bab1e9.chunk.js.map": "https://peaech-conference.netlify.app/static/js/185.57bab1e9.chunk.js.map",
     "820.bbcc9abc.chunk.css.map": "https://peaech-conference.netlify.app/static/css/820.bbcc9abc.chunk.css.map",
-    "820.433e1d28.chunk.js.map": "https://peaech-conference.netlify.app/static/js/820.433e1d28.chunk.js.map",
+    "820.62ba2d97.chunk.js.map": "https://peaech-conference.netlify.app/static/js/820.62ba2d97.chunk.js.map",
     "803.ace68a13.chunk.js.map": "https://peaech-conference.netlify.app/static/js/803.ace68a13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.850f383d.css",
-    "static/js/main.dc92e06d.js"
+    "static/js/main.a9717fa5.js"
   ]
 }
