@@ -7,7 +7,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/peaech-conference">
+    <BrowserRouter basename="peaech-conference">
       <App />
     </BrowserRouter>
   </React.StrictMode>
