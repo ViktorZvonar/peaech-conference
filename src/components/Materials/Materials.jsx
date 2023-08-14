@@ -72,8 +72,8 @@ function Materials() {
           </p>
           <h2 className={styles.h1}>English:</h2>
           <p className={styles.p}>
-            Peacebuilding Education for a Consolidated and Human-Centered
-            Europe: Reports of the All-Ukrainian Scientific-Practical
+            Peace Education for Consolidated and Human-Centered Europe:
+            Proceedings of the All-Ukrainian Scientific and Practical
             Conference, Kyiv, June 16, 2023: Kyiv, Borys Grinchenko Kyiv
             University, 2023. – 150 pages.
           </p>
