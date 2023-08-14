@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/peaech-conference/static/css/main.850f383d.css",
-    "main.js": "/peaech-conference/static/js/main.15edb91a.js",
+    "main.js": "/peaech-conference/static/js/main.c1971884.js",
     "static/css/169.7a92cc36.chunk.css": "/peaech-conference/static/css/169.7a92cc36.chunk.css",
     "static/js/169.4a154688.chunk.js": "/peaech-conference/static/js/169.4a154688.chunk.js",
     "static/css/185.35d7e173.chunk.css": "/peaech-conference/static/css/185.35d7e173.chunk.css",
     "static/js/185.049c8b64.chunk.js": "/peaech-conference/static/js/185.049c8b64.chunk.js",
-    "static/css/820.18bf8d42.chunk.css": "/peaech-conference/static/css/820.18bf8d42.chunk.css",
+    "static/css/820.bbcc9abc.chunk.css": "/peaech-conference/static/css/820.bbcc9abc.chunk.css",
     "static/js/820.433e1d28.chunk.js": "/peaech-conference/static/js/820.433e1d28.chunk.js",
     "static/js/803.47e846c6.chunk.js": "/peaech-conference/static/js/803.47e846c6.chunk.js",
     "static/media/logo_znak_2022.png": "/peaech-conference/static/media/logo_znak_2022.a64d98de45c500c89051.png",
@@ -17,17 +17,17 @@
     "static/media/jean-monnet-logo-300x108.png": "/peaech-conference/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "/peaech-conference/index.html",
     "main.850f383d.css.map": "/peaech-conference/static/css/main.850f383d.css.map",
-    "main.15edb91a.js.map": "/peaech-conference/static/js/main.15edb91a.js.map",
+    "main.c1971884.js.map": "/peaech-conference/static/js/main.c1971884.js.map",
     "169.7a92cc36.chunk.css.map": "/peaech-conference/static/css/169.7a92cc36.chunk.css.map",
     "169.4a154688.chunk.js.map": "/peaech-conference/static/js/169.4a154688.chunk.js.map",
     "185.35d7e173.chunk.css.map": "/peaech-conference/static/css/185.35d7e173.chunk.css.map",
     "185.049c8b64.chunk.js.map": "/peaech-conference/static/js/185.049c8b64.chunk.js.map",
-    "820.18bf8d42.chunk.css.map": "/peaech-conference/static/css/820.18bf8d42.chunk.css.map",
+    "820.bbcc9abc.chunk.css.map": "/peaech-conference/static/css/820.bbcc9abc.chunk.css.map",
     "820.433e1d28.chunk.js.map": "/peaech-conference/static/js/820.433e1d28.chunk.js.map",
     "803.47e846c6.chunk.js.map": "/peaech-conference/static/js/803.47e846c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.850f383d.css",
-    "static/js/main.15edb91a.js"
+    "static/js/main.c1971884.js"
   ]
 }
