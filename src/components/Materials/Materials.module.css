@@ -13,11 +13,12 @@
 
 .secondSection h3 {
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1em;
+  margin-bottom: 15px;
 }
 
 .secondSection p {
-  font-size: 1.1em;
+  font-size: 0.8em;
   color: #777777;
 }
 
@@ -43,6 +44,7 @@
 }
 
 .downloadButton {
+  margin-left: 10px;
   background-color: #0056b3;
   color: #ffffff;
   padding: 10px 15px;

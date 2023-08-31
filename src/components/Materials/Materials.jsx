@@ -85,7 +85,7 @@ function Materials() {
         {currentItems.map((material, index) => (
           <div key={index} className={styles.dataContainer}>
             <div className={styles.textContainer}>
-              <h3>{material.title}</h3>
+              <h3 className={styles.h3}>{material.title}</h3>
               <p>{material.author}</p>
             </div>
             <button className={styles.downloadButton}>
@@ -95,7 +95,7 @@ function Materials() {
                   (currentPage - 1) * itemsPerPage + index + 1
                 }.pdf`}
               >
-                View PDF
+                PDF
               </a>
             </button>
           </div>

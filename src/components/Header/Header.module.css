@@ -10,14 +10,11 @@
 
 .nav {
   display: flex;
+  justify-content: center;
   align-items: center;
-}
-
-.menu {
-  display: flex;
   list-style: none;
-  padding: 10px;
   gap: 20px;
+  padding: 10px;
 }
 
 .link {
@@ -27,6 +24,7 @@
   background-color: #49c1da;
   border-radius: 5px;
   padding: 5px 10px;
+  text-align: center;
 }
 
 .link:hover {
@@ -52,7 +50,7 @@
 .logo2,
 .logo3,
 .logo4 {
-  width: 100px;
+  width: 5rem;
   height: 50%;
   transition: all 0.3s ease;
 }
@@ -62,10 +60,66 @@
   transform: scale(1.1);
 }
 
-.logo3 {
+/* .logo3 {
   width: 150px;
-}
+} */
 
 .logo4 {
   width: 130px;
+}
+
+.burgerMenuIcon {
+  cursor: pointer;
+  position: relative;
+}
+
+.menuDropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.naContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  gap: 20px;
+  left: 0;
+  padding: 30px;
+  background-color: #fdfae7;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menuDropdown:hover .dropdownContent {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .logo1,
+  .logo4,
+  .logo2,
+  .logo3 {
+    width: 3rem;
+    height: 50%;
+  }
+
+  .logo2,
+  .logo3 {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1279px) {
+  .menuDropdown:hover .dropdownContent,
+  .menuDropdown:focus-within .dropdownContent {
+    display: flex;
+  }
 }

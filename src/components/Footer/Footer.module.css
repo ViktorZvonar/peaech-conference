@@ -16,6 +16,12 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 479px) {
+  .logos {
+    display: none;
+  }
+}
+
 .logo1,
 .logo2 {
   width: 150px;
