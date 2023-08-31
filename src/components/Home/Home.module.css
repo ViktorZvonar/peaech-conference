@@ -1,5 +1,5 @@
 .h1 {
-  font-size: 1.8em;
+  font-size: 26px;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -7,13 +7,34 @@
 }
 
 .h2 {
-  font-size: 1.4em;
+  font-size: 18px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 40px;
   color: #3778c8;
 }
+
+@media (min-width: 1280px) {
+  .h1 {
+    font-size: 30px;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 20px;
+  }
+
+  .h2 {
+    font-size: 13px;
+  }
+}
+
 .firstSection {
   display: flex;
   flex-direction: column;
@@ -65,17 +86,12 @@
   color: #6c757d;
   margin-bottom: 20px;
   font-size: 1.1em;
+  text-align: center;
 }
 
 .about {
   text-align: center;
 }
-/* .secondSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
 
 .ul {
   list-style: none;
@@ -83,7 +99,7 @@
 
 .ul li {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   transition: all 0.3s ease;
   max-width: 800px;
 }

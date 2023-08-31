@@ -64,11 +64,27 @@
 
 .speakersContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 }
 
+@media (min-width: 768px) {
+  .speakersContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .additionalInfo {
+    display: block;
+  }
+  .speakersContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .additionalInfo {
+  width: 60%;
   position: absolute;
   padding: 5px 20px;
   background-color: #3778c8;
@@ -88,4 +104,10 @@
 .section:focus-within .additionalInfo {
   opacity: 1;
   visibility: visible;
+}
+
+@media (max-width: 769px) {
+  .additionalInfo {
+    display: none;
+  }
 }

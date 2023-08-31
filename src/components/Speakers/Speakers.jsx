@@ -4,7 +4,7 @@ import SpeakerPerson from './SpeakerPerson/SpeakerPerson';
 
 function Speakers() {
   return (
-    <div>
+    <main>
       <section className={styles.section} tabIndex="0">
         <h1 className={styles.h1}>Meet our Keynote Speakers</h1>
         <p className={styles.p}>
@@ -17,7 +17,7 @@ function Speakers() {
       <section className={styles.speakersContainer}>
         <SpeakerPerson />
       </section>
-    </div>
+    </main>
   );
 }
 
