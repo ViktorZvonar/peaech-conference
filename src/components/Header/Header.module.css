@@ -122,3 +122,21 @@
     display: flex;
   }
 }
+
+.backdrop {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  pointer-events: none;
+  visibility: hidden;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.activeBackdrop {
+  visibility: visible;
+}

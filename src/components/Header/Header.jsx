@@ -25,6 +25,14 @@ function Header() {
 
   return (
     <header className={styles.header}>
+      {dropdownOpen && (
+        <div
+          className={`${styles.backdrop} ${
+            dropdownOpen ? styles.activeBackdrop : ''
+          }`}
+          onClick={() => setDropdownOpen(false)} // Close the dropdown when backdrop is clicked
+        ></div>
+      )}
       <div className={styles.logos}>
         <img
           src={logo1}
