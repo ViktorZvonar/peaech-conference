@@ -1,4 +1,3 @@
-// import Home from './Home/Home';
 import Container from './Container/Container';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
@@ -8,7 +7,6 @@ import { Routes, Route } from 'react-router-dom';
 const Home = lazy(() => import('./Home/Home'));
 const Speakers = lazy(() => import('./Speakers/Speakers'));
 const Materials = lazy(() => import('./Materials/Materials'));
-// const NotFoundPage = lazy(() => import('../pages/NotFoundPage/NotFoundPage'));
 
 export const App = () => {
   return (
@@ -20,7 +18,6 @@ export const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/speakers" element={<Speakers />} />
             <Route path="/proceedings" element={<Materials />} />
-            {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
         </Container>
         <Footer />
