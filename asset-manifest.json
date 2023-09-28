@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "https://peaech-conference.netlify.app/static/css/main.f856a192.css",
-    "main.js": "https://peaech-conference.netlify.app/static/js/main.9e74c24f.js",
+    "main.js": "https://peaech-conference.netlify.app/static/js/main.152d072e.js",
     "static/css/169.3882338f.chunk.css": "https://peaech-conference.netlify.app/static/css/169.3882338f.chunk.css",
-    "static/js/169.0b42d7fd.chunk.js": "https://peaech-conference.netlify.app/static/js/169.0b42d7fd.chunk.js",
+    "static/js/169.8fb46a04.chunk.js": "https://peaech-conference.netlify.app/static/js/169.8fb46a04.chunk.js",
     "static/css/185.28f5c21d.chunk.css": "https://peaech-conference.netlify.app/static/css/185.28f5c21d.chunk.css",
     "static/js/185.1cfed26d.chunk.js": "https://peaech-conference.netlify.app/static/js/185.1cfed26d.chunk.js",
     "static/css/820.ceb62b8d.chunk.css": "https://peaech-conference.netlify.app/static/css/820.ceb62b8d.chunk.css",
@@ -17,9 +17,9 @@
     "static/media/jean-monnet-logo-300x108.png": "https://peaech-conference.netlify.app/static/media/jean-monnet-logo-300x108.29c411002381c8b22e8c.png",
     "index.html": "https://peaech-conference.netlify.app/index.html",
     "main.f856a192.css.map": "https://peaech-conference.netlify.app/static/css/main.f856a192.css.map",
-    "main.9e74c24f.js.map": "https://peaech-conference.netlify.app/static/js/main.9e74c24f.js.map",
+    "main.152d072e.js.map": "https://peaech-conference.netlify.app/static/js/main.152d072e.js.map",
     "169.3882338f.chunk.css.map": "https://peaech-conference.netlify.app/static/css/169.3882338f.chunk.css.map",
-    "169.0b42d7fd.chunk.js.map": "https://peaech-conference.netlify.app/static/js/169.0b42d7fd.chunk.js.map",
+    "169.8fb46a04.chunk.js.map": "https://peaech-conference.netlify.app/static/js/169.8fb46a04.chunk.js.map",
     "185.28f5c21d.chunk.css.map": "https://peaech-conference.netlify.app/static/css/185.28f5c21d.chunk.css.map",
     "185.1cfed26d.chunk.js.map": "https://peaech-conference.netlify.app/static/js/185.1cfed26d.chunk.js.map",
     "820.ceb62b8d.chunk.css.map": "https://peaech-conference.netlify.app/static/css/820.ceb62b8d.chunk.css.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.f856a192.css",
-    "static/js/main.9e74c24f.js"
+    "static/js/main.152d072e.js"
   ]
 }
